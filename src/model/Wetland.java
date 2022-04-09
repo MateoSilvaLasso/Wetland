@@ -312,14 +312,6 @@ public class Wetland {
         this.fotoUrl = fotoUrl;
     }
 
-    public int getJ() {
-        return this.j;
-    }
-
-    public void setJ(int j) {
-        this.j = j;
-    }
-
     public EnumUbication getUbiZone() {
         return this.ubiZone;
     }
