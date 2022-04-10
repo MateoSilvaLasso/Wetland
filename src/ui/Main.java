@@ -24,7 +24,7 @@ public class Main {
      */
     public int showMenu(){
         int option=0;
-        System.out.println("1: create Wetland \n" +
+        System.out.println("---------------------------------------\n1: create Wetland \n" +
                            "2: register new Specie \n"+
                            "3: register new event \n"+
                            "4: maintances \n"+
@@ -32,7 +32,7 @@ public class Main {
                            "6: consult Specie \n"+
                            "7: information \n"+
                            "8: wetland with more animals \n"+
-                           "9: out");
+                           "9: out\n -------------------------------------");
         option= read.nextInt();
         read.nextLine();
         return option;
